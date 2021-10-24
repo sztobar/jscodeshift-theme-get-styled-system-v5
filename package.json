@@ -9,7 +9,11 @@
   },
   "bugs": "https://github.com/sztobat/jscodeshift-theme-get-styled-system-v5/issues",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
+  },
+  "bin": {
+    "jscodeshift-theme-get-styled-system-v5": "./bin/jscodeshift-theme-get-styled-system-v5.js"
   },
   "keywords": [
     "codemod",
