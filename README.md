@@ -1,4 +1,4 @@
-# jscodeshift-theme-get-styled-system-v5
+# jscodeshift-theme-get-styled-system-v5 ![example workflow](https://github.com/sztobar/jscodeshift-theme-get-styled-system-v5/actions/workflows/main.yml/badge.svg)
 
 `jscodeshift-theme-get-styled-system-v5` is a [jscodeshift][] transform for migrating `theme-get` utility function when upgrading [styled-system][] library to version [v5.0.0](https://styled-system.com/guides/migrating#removed)
 
@@ -10,16 +10,18 @@ Get jscodeshift-theme-get-styled-system-v5 from [npm][]:
 $ npm install -g jscodeshift-theme-get-styled-system-v5
 ```
 
-# How to use
+## How to use
 
 ```sh
 npx jscodeshift-theme-get-styled-system-v5 src/**/*.js
 ```
 
-`jscodeshift-theme-get-styled-system-v5` [bin](./bin/jscodeshift-theme-get-styled-system-v5.js) is calling internally [jscodeshift][] and simply setting [theme-get](`./src/theme-get.ts`) as a tranformer. To see how to use [jscodeshift][] cli, you can enter:
+`jscodeshift-theme-get-styled-system-v5` [bin](./bin/jscodeshift-theme-get-styled-system-v5.js) is calling internally [jscodeshift][] and simply setting [theme-get](`./src/theme-get.ts`) as a tranformer. To see how to use [jscodeshift][] cli, enter the command without any arguments:
 
 ```sh
-npx jscodeshift-theme-get-styled-system-v5 -h
+$ npx jscodeshift-theme-get-styled-system-v5
+
+
 ```
 
 If you have [jscodeshift][] package installed (either locally or globally) you can pass [theme-get](`./src/theme-get.ts`) as a transformer, after installing it:
