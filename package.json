@@ -1,6 +1,6 @@
 {
   "name": "jscodeshift-theme-get-styled-system-v5",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Codemod for transforming styled-system `theme-get` util imports from 'styled-system' package to dedicated '@styled-system/theme-get'",
   "main": "./dist/theme-get.js",
   "types": "./dist/theme-get.d.ts",
