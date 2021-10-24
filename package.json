@@ -2,18 +2,19 @@
   "name": "jscodeshift-theme-get-styled-system-v5",
   "version": "0.1.0",
   "description": "A Codemod for transforming styled-system `theme-get` util imports from 'styled-system' package to dedicated '@styled-system/theme-get'",
-  "main": "src/theme-get.ts",
+  "main": "./dist/theme-get.js",
+  "types": "./dist/theme-get.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/sztobat/jscodeshift-theme-get-styled-system-v5.git"
+  },
+  "bin": {
+    "jscodeshift-theme-get-styled-system-v5": "./bin/jscodeshift-theme-get-styled-system-v5.js"
   },
   "bugs": "https://github.com/sztobat/jscodeshift-theme-get-styled-system-v5/issues",
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  },
-  "bin": {
-    "jscodeshift-theme-get-styled-system-v5": "./bin/jscodeshift-theme-get-styled-system-v5.js"
   },
   "keywords": [
     "codemod",
@@ -21,6 +22,9 @@
     "babel",
     "styled-system"
   ],
+  "engines": {
+    "node": ">10.13.0"
+  },
   "author": "Bartosz Szewczyk <sztobar>",
   "license": "MIT",
   "devDependencies": {
