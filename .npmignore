@@ -1,0 +1,7 @@
+.gitignore
+.eslintrc
+.prettierrc.json
+jest.config.ts
+tsconfig.test.json
+__tests__
+__testfixtures__
