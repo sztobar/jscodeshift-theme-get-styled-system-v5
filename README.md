@@ -16,7 +16,7 @@ $ npm install -g jscodeshift-theme-get-styled-system-v5
 npx jscodeshift-theme-get-styled-system-v5 src/**/*.js
 ```
 
-`jscodeshift-theme-get-styled-system-v5` [bin](./bin/jscodeshift-theme-get-styled-system-v5.js) is calling internally [jscodeshift][] and simply setting [theme-get](`./src/theme-get.ts`) as a tranformer. To see how to use [jscodeshift][] cli, enter the command without any arguments:
+`jscodeshift-theme-get-styled-system-v5` [bin](./bin/jscodeshift-theme-get-styled-system-v5.js) is calling internally [jscodeshift][] and simply setting [theme-get](`./src/theme-get.ts`) as a transformer. To see how to use [jscodeshift][] cli, enter the command without any arguments:
 
 ```sh
 $ npx jscodeshift-theme-get-styled-system-v5
