@@ -1,6 +1,6 @@
 {
   "name": "jscodeshift-theme-get-styled-system-v5",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Codemod for transforming styled-system `theme-get` util imports from 'styled-system' package to dedicated '@styled-system/theme-get'",
   "main": "./dist/theme-get.js",
   "types": "./dist/theme-get.d.ts",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@tsconfig/node10": "^1.0.8",
     "@types/jest": "^27.0.2",
-    "@types/jscodeshift": "^0.11.2",
+    "@types/jscodeshift": "^0.11.3",
     "eslint": "^8.1.0",
     "jest": "^27.2.1",
     "ts-jest": "^27.0.5",
