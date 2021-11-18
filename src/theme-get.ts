@@ -30,7 +30,7 @@ const transform: Transform = (fileInfo, api, options) => {
   root
     .find(j.ImportDeclaration, {
       source: { value: 'styled-system' },
-      specifiers: (specifiers: PossibleImportSpecifier[]) =>
+      specifiers: (specifiers?: PossibleImportSpecifier[]) =>
         specifiers?.some(isThemeGetImportSpecifier) ?? false,
     })
     .replaceWith((path) => {
@@ -57,7 +57,7 @@ const transform: Transform = (fileInfo, api, options) => {
   root
     .find(j.ImportDeclaration, {
       source: { value: 'styled-system' },
-      specifiers: (specifiers: PossibleImportSpecifier[]) =>
+      specifiers: (specifiers?: PossibleImportSpecifier[]) =>
         specifiers?.some(
           (specifier) => specifier.type === 'ImportNamespaceSpecifier'
         ) ?? false,
